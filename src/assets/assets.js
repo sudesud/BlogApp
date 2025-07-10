@@ -7,7 +7,10 @@ import blog_pic_3 from './blog_pic_3.jpg'
 import blog_pic_4 from './blog_pic_4.jpg'
 import blog_pic_5 from './blog_pic_5.jpg'
 import blog_pic_6 from './blog_pic_6.jpg'
-
+import user from './user.png'
+import instagram from './instagram.png'
+import facebook from './facebook.png'
+import twitter from './twitter.png'
 
  
 export const blogCategories=['All','Tecnology','Startup','Lifestyle','Finance']
@@ -16,8 +19,13 @@ export const assets={
     blog_icon,
     arrow,
     background,
-    star
+    star,
+    user,
+    instagram,
+    facebook,
+    twitter
     }
+
 export const blog_data = [
   {
     "_id": "1a2b3c4d5e6f7890a1b2c3d4",
@@ -101,3 +109,90 @@ export const footer_data = [
     links: ["Instagram", "Twitter", "Facebook", "YouTube"]
   }
 ];
+
+export const comments_data = [
+  {
+    _id: "6811ed9e7836a82ba747cb25",
+    blog: blog_data[0],
+    name: "Michael Scott",
+    content: "This is my new comment",
+    isApproved: false,
+    createdAt: "2025-04-30T09:30:06.918Z",
+    updatedAt: "2025-04-30T09:30:06.918Z",
+    __v: 0
+  },
+  {
+    _id: "6810a752fbb942aa7cbf4adb",
+    blog: blog_data[1],
+    name: "John Doe",
+    content: "This is a nice blog",
+    isApproved: false,
+    createdAt: "2025-04-29T15:20:10.500Z",
+    updatedAt: "2025-04-29T15:20:10.500Z",
+    __v: 0
+  },
+  {
+    _id: "6810b8ef2ff3481ac3de2a71",
+    blog: blog_data[2],
+    name: "Pam Beesly",
+    content: "Very informative and well written!",
+    isApproved: true,
+    createdAt: "2025-04-28T18:45:12.123Z",
+    updatedAt: "2025-04-28T18:45:12.123Z",
+    __v: 0
+  },
+  {
+    _id: "6810c0d3ac8494fc2f31a7ef",
+    blog: blog_data[3],
+    name: "Jim Halpert",
+    content: "I enjoyed reading this post.",
+    isApproved: true,
+    createdAt: "2025-04-27T13:10:45.789Z",
+    updatedAt: "2025-04-27T13:10:45.789Z",
+    __v: 0
+  },
+   {
+    _id: "6811ed9e7836a82ba747cb25",
+    blog: blog_data[0],
+    name: "Michael Scott",
+    content: "This is my new comment",
+    isApproved: false,
+    createdAt: "2025-04-30T09:30:06.918Z",
+    updatedAt: "2025-04-30T09:30:06.918Z",
+    __v: 0
+  },
+  {
+    _id: "6810a752fbb942aa7cbf4adb",
+    blog: blog_data[1],
+    name: "John Doe",
+    content: "This is a nice blog",
+    isApproved: false,
+    createdAt: "2025-04-29T15:20:10.500Z",
+    updatedAt: "2025-04-29T15:20:10.500Z",
+    __v: 0
+  },
+  {
+    _id: "6810b8ef2ff3481ac3de2a71",
+    blog: blog_data[2],
+    name: "Pam Beesly",
+    content: "Very informative and well written!",
+    isApproved: true,
+    createdAt: "2025-04-28T18:45:12.123Z",
+    updatedAt: "2025-04-28T18:45:12.123Z",
+    __v: 0
+  },
+  {
+    _id: "6810c0d3ac8494fc2f31a7ef",
+    blog: blog_data[3],
+    name: "Jim Halpert",
+    content: "I enjoyed reading this post.",
+    isApproved: true,
+    createdAt: "2025-04-27T13:10:45.789Z",
+    updatedAt: "2025-04-27T13:10:45.789Z",
+    __v: 0
+  }
+
+  
+];
+
+ 
