@@ -11,6 +11,10 @@ import user from './user.png'
 import instagram from './instagram.png'
 import facebook from './facebook.png'
 import twitter from './twitter.png'
+import home_icon from './home_icon.png'
+import chat_icon from './chat.png'
+import checklist from './checklist.png'
+import addicon from './add-icon.png'
 
  
 export const blogCategories=['All','Tecnology','Startup','Lifestyle','Finance']
@@ -23,7 +27,11 @@ export const assets={
     user,
     instagram,
     facebook,
-    twitter
+    twitter,
+    home_icon,
+    chat_icon,
+    checklist,
+    addicon
     }
 
 export const blog_data = [
