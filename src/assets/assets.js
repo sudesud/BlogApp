@@ -15,6 +15,8 @@ import home_icon from './home_icon.png'
 import chat_icon from './chat.png'
 import checklist from './checklist.png'
 import addicon from './add-icon.png'
+import draft from './draft.png'
+import cross from './cross.png'
 
  
 export const blogCategories=['All','Tecnology','Startup','Lifestyle','Finance']
@@ -31,7 +33,9 @@ export const assets={
     home_icon,
     chat_icon,
     checklist,
-    addicon
+    addicon,
+    draft,
+    cross
     }
 
 export const blog_data = [
@@ -118,6 +122,12 @@ export const footer_data = [
   }
 ];
 
+export const dashboard_data={
+  "blogs":10,
+  "comments":5,
+  "drafts":0,
+  "recentBlogs":blog_data.slice(0,5)
+}
 export const comments_data = [
   {
     _id: "6811ed9e7836a82ba747cb25",
