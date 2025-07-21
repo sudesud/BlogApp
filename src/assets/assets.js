@@ -17,6 +17,8 @@ import checklist from './checklist.png'
 import addicon from './add-icon.png'
 import draft from './draft.png'
 import cross from './cross.png'
+import delete_icon from './delete_icon.png'
+import approved from './approved.png'
 
  
 export const blogCategories=['All','Tecnology','Startup','Lifestyle','Finance']
@@ -35,7 +37,9 @@ export const assets={
     checklist,
     addicon,
     draft,
-    cross
+    cross,
+    approved, 
+    delete_icon
     }
 
 export const blog_data = [
@@ -88,6 +92,18 @@ export const blog_data = [
     "subTitle": "Living intentionally through simplicity"
   },
   {
+    "_id": "mno456pqr789stu012vwxyzab",
+    "title": "Mastering Time Management",
+    "description": "<h1>Time Management Tips</h1><p>Time is our most valuable resource. Learn to manage it wisely with these strategies.</p><h2>1. Prioritize</h2><p>Identify what's most important each day.</p><h2>2. Use a Calendar</h2><p>Block time for tasks and avoid overbooking.</p>",
+    "category": "Finance",
+    "image": blog_pic_6,
+    "createdAt": "2025-01-05T08:30:00.000Z",
+    "updatedAt": "2025-01-06T11:00:00.000Z",
+    "__v": 0,
+    "isPublished": true,
+    "subTitle": "Take control of your schedule and get more done"
+  },
+   {
     "_id": "mno456pqr789stu012vwxyzab",
     "title": "Mastering Time Management",
     "description": "<h1>Time Management Tips</h1><p>Time is our most valuable resource. Learn to manage it wisely with these strategies.</p><h2>1. Prioritize</h2><p>Identify what's most important each day.</p><h2>2. Use a Calendar</h2><p>Block time for tasks and avoid overbooking.</p>",
