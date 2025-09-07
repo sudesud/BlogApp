@@ -16,7 +16,7 @@ import chat_icon from './chat.png'
 import checklist from './checklist.png'
 import addicon from './add-icon.png'
 import draft from './draft.png'
-// import cross from './cross.png'
+import cross from './cross.png'
 import delete_icon from './delete_icon.png'
 import approved from './approved.png'
 import upload_area from './upload_area.png'
@@ -38,7 +38,7 @@ export const assets={
     checklist,
     addicon,
     draft,
-    // cross,
+    cross,
     approved, 
     delete_icon,
     upload_area

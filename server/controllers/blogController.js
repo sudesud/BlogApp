@@ -67,7 +67,7 @@ export const getBlogById=async (req,res)=>{
 
 export const deleteBlogById=async (req,res)=>{
     try {
-        const {bId}=req.body;
+        const {id}=req.body;
        await Blog.findByIdAndDelete(id)
 
        //delete all comments associated with the blog
