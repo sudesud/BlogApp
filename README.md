@@ -42,6 +42,7 @@ IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 IMAGEKIT_URL_ENDPOINT=your_imagekit_url
 
+
 Çalıştır:
 npm run server
 
@@ -53,17 +54,22 @@ npm run dev
 📸 Ekran Görüntüleri
 
 🔑 Admin Giriş
+
 ![WhatsApp Görsel 2025-09-26 saat 14 20 13_9c473447](https://github.com/user-attachments/assets/ee03c574-d86b-45da-8561-2eb48ff4b1e2)
 
 
 📝 Blog Ekleme / Listeleme / Yönetme
+
 ![WhatsApp Görsel 2025-09-26 saat 14 20 13_ee6119cd](https://github.com/user-attachments/assets/5b0fea80-33d5-400c-ab96-2db119678360)
+
 ![WhatsApp Görsel 2025-09-26 saat 14 20 13_07fa35a0](https://github.com/user-attachments/assets/02ca421c-aa90-4bd9-8c62-c3642e50e38e)
 
 
 💬 Yorumlar Kısmı
+
 ![WhatsApp Görsel 2025-09-26 saat 14 20 13_a075c282](https://github.com/user-attachments/assets/e1fde6bb-0060-4985-9da9-050d35065de2)
 
 
 🏠 Ana Sayfa
+
 ![WhatsApp Görsel 2025-09-26 saat 14 20 14_cdd85eb7](https://github.com/user-attachments/assets/aeb109a5-8650-4dbd-8cce-11d54d0c2969)
